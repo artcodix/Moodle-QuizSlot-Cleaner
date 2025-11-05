@@ -130,11 +130,12 @@ The notebook interacts with these Moodle tables:
 
 ## Best Practices
 
-1. **Always test first**: Run with `isTesting = True` before production
-2. **Backup database**: Create a backup before running in production mode
-3. **Review exclusions**: Update `quiz_ids_with_section_references` as needed
-4. **Monitor output**: Check logs for any error messages
-5. **Verify results**: Query the database after cleanup to confirm changes
+1. **Create a Venv**: Create a virtual environment and install the packages
+2. **Always test first**: Run with `isTesting = True` before production
+3. **Backup database**: Create a backup before running in production mode
+4. **Review exclusions**: Update `quiz_ids_with_section_references` as needed
+5. **Monitor output**: Check logs for any error messages
+6. **Verify results**: Query the database after cleanup to confirm changes
 
 ## Limitations
 
