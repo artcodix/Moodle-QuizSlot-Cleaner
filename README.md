@@ -1,6 +1,20 @@
+
 # Moodle Quiz Slot Cleanup
 
+<p align="center">
+  <img src="logos/artcodix_logo.png" alt="Artcodix Logo" height="120"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="logos/Logo_Technische_Hochschule_Rosenheim.svg.png" alt="Hochschule Rosenheim Logo" height="120"/>
+</p>
+
+<p align="center">
+  <strong>Created by Artcodix in cooperation with Hochschule Rosenheim</strong>
+</p>
+
+---
+
 A Jupyter notebook tool for identifying and cleaning up orphaned quiz slots in a Moodle PostgreSQL database. This tool helps maintain database integrity by removing quiz slots that have no associated question references.
+
 
 ## Overview
 
